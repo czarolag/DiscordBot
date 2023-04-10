@@ -1,4 +1,4 @@
-python -m pip install -U hikari
-pip install hikari-lightbulb
-pip install discord.py
-pip install gspread
+hikari==2.0.0.dev117
+hikari-lightbulb==2.3.2
+discord.py==2.2.2
+gspread==5.7.2
