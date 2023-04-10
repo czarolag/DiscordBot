@@ -19,7 +19,7 @@ SPREADSHEET_ID = 'Google Spreadsheet ID here'
 creds = None
 
 # credentials.json for service account must be in same directory. Steps can be found: https://mljar.com/blog/authenticate-python-google-sheets-service-account-json-credentials/
-creds, project_id = google.auth.load_credentials_from_file('Your_Service_Key.json', scopes=['https://www.googleapis.com/auth/spreadsheets'])
+creds, project_id = google.auth.load_credentials_from_file('Your_Service_Account_Credentials.json', scopes=['https://www.googleapis.com/auth/spreadsheets'])
 
 if not creds or not creds.valid:
     creds.refresh(google.auth.transport.requests.Request())
@@ -59,7 +59,7 @@ Command Option with user input
 async def equipment_max(ctx):
 
     # activates service account with given credentials.json
-    gc = gspread.service_account(filename='credentials.json')
+    gc = gspread.service_account(filename='Your_Service_Account_Credentials.json')
 
     # More about gsspread API commands: https://github.com/burnash/gspread/tree/v5.7.1
     sheet = gc.open_by_key(SPREADSHEET_ID)
