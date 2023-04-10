@@ -1,0 +1,5 @@
+python -m pip install -U hikari
+pip install hikari-lightbulb
+pip install discord.py
+pip install gspread
+pip install pytz
