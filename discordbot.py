@@ -61,14 +61,15 @@ async def equipment_max(ctx):
     # activates service account with given credentials.json
     gc = gspread.service_account(filename='Your_Service_Account_Credentials.json')
 
+    # Used to modify information on Google Sheets using the Sheets ID
     # More about gsspread API commands: https://github.com/burnash/gspread/tree/v5.7.1
     sheet = gc.open_by_key(SPREADSHEET_ID)
     worksheet = sheet.worksheet('example_sheet')
-    worksheet.update('A1', ctx.options.info_one) #ctx.options.example recieves the inputted information from the decorator @lightbulb.option('example', 'example info') 
-    worksheet.update('B1', ctx.options.info_two)
+    worksheet.update('A1', ctx.options.info_one) # ctx.options.example recieves the inputted information 
+    worksheet.update('B1', ctx.options.info_two) # from the decorator @lightbulb.option('example', 'example info')
 
     # using ctx.author.id in this format returns the username of the user who
-    # has send the command request
+    # has sent the command request
     await ctx.respond(f'<@{ctx.author.id}> your info has been updated')
 
 
