@@ -1,0 +1,12 @@
+{
+    "_comment": "Do not share your bot's token with anyone. It should remain secret!",
+    "token": "",
+
+    "_comment_": "Enter discord server ID's here To allow access.",
+    "guild_1": 111111,
+    "guild_2": 222222,
+    
+    "__comment_": "Enter your Google Sheet IDs here",
+    "sheet_id_1": "",
+    "sheet_id_2": ""
+}
