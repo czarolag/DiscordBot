@@ -17,8 +17,8 @@ This project is a Discord bot that allows you to update information on a Google 
 
 ## **Configuration**
 
-1. Rename the `credentials-example.json` file to `credentials.json`.
-2. Replace the placeholders in `credentials.json` with your own information.
+1. Create a copy and rename `credentials-example.json` to `credentials.json` by running `cp credentials-example.json credentials.json`.
+1a. Replace the placeholders in `credentials.json` with your own information `NOTE: Do not add your personal information on the example.json, mak`.
 
 ## **Usage**
 
