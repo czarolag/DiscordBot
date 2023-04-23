@@ -12,7 +12,8 @@ This project is a Discord bot that allows you to update information on a Google 
 1. Clone the repository: `git clone https://github.com/your-username/DiscordBot.git`
 2. Install the required packages: `pip install -r requirements.txt`
 3. Set up a new Discord bot and obtain the bot token. You can follow the instructions [here](https://discord.com/developers/docs/getting-started).
-4. Create a new Google Spreadsheet file and obtain the credentials JSON file. You can follow the instructions [here](https://mljar.com/blog/authenticate-python-google-sheets-service-account-json-credentials/).
+4. Create a Service Account and obtain the credentials JSON file. You can follow the instructions [here](https://mljar.com/blog/authenticate-python-google-sheets-service-account-json-credentials/).
+5. Create a Google Sheets and get the [Google Sheets ID](https://developers.google.com/sheets/api/guides/concepts).
 
 ## **Configuration**
 
