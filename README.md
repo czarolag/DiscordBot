@@ -26,7 +26,7 @@ This project is a Discord bot that allows you to update information on a Google 
 ## **Usage**
 
 To start the bot, run `python discordbot.py` in your terminal. The bot will be online and listening for YOUR created commands:
-- Usually in the format `/bot-help` or `/bot-add input1 input2`
+- Usually in the format `/bot-help` or `/bot-display column`
 
 ## **Credits**
 
