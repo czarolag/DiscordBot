@@ -30,5 +30,5 @@ To start the bot, run `python discordbot.py` in your terminal. The bot will be o
 
 ## **Credits**
 
-This project was created by [czarolag](https://github.com/czarolag) with the help of [ChatGPT](https://chat.openai.com/). 
+This project was created by [czarolag](https://github.com/czarolag) with the help of [ChatGPT](https://chat.openai.com/) in API Sourcing. 
 If you have any questions or suggestions, please feel free to contact me.
