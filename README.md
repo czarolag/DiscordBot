@@ -9,7 +9,7 @@ This project is a Discord bot that allows you to update information on a Google 
 
 ## **Installation**
 
-1. Clone the repository: `git clone https://github.com/your-username/DiscordBot.git`
+1. Clone the repository: `git clone https://github.com/czarolag/DiscordBot.git`
 2. Install the required packages: `pip install -r requirements.txt`
 3. Set up a new Discord bot and obtain the bot token. You can follow the instructions [here](https://discord.com/developers/docs/getting-started).
 4. Invite your bot to the server. This can be done by following instructions [here](https://discordjs.guide/preparations/adding-your-bot-to-servers.html#creating-and-using-your-invite-link)
